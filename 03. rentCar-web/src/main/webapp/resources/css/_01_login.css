@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+        span {
+            white-space: pre;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'IBM Plex Sans KR', sans-serif;
+
+        }
+
+        #a {
+            display: grid;
+            grid-template:
+                "sec1 sec2 sec3" 1fr 
+                / 1fr 500px 1fr;
+            font-size: 10pt;
+            height: auto;
+            margin-top: 150px;
+        }
+
+        #sec1 {
+            grid-area: sec1;
+        }
+
+        .input_area{
+            text-align: center;
+        }
+        #sec2 {
+            grid-area: sec2;
+            width: 500px;
+            height: 350px;
+            border-radius: 30px;
+            background-color: #F5F6F7;
+            border: solid 1px lightgray;
+        }
+
+        #sec3 {
+            grid-area: sec3;
+        }
+
+        .login_header {
+            text-align: center;
+            margin-top: 30px;
+
+        }
+
+        #title {
+            font-size: 35pt;
+            margin-bottom: 5vh;
+            color:#0059AB;
+            font-weight: 900;
+            cursor: pointer;            
+        }
+
+        @media screen and (max-width: 760px) {
+            #title {
+                font-size: 25pt;
+            }
+
+            #sec1 {
+                grid-area: sec1;
+            }
+
+            #sec3 {
+                grid-area: sec3;
+
+            }
+        }
+
+        #remember{
+            display: none;
+        }
+
+        #remember_label{
+            margin-top: 10px;
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 10px;
+            border: solid 1px;
+            border-color: #A7A7A7;
+        }
+
+        #remember:checked ~ #remember_label{
+            border-radius: 10px;
+            border: solid 1px;
+            background-color: #03C75B;
+            border-color: #0059AB;
+        }
+
+        #remember_div{
+            margin-left: 100px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-align: left;
+            font-size: 8pt;
+            color: gray;
+        }
+
+        .login_sub{
+            margin-top: 10px;
+            cursor: pointer;
+            font-size: 7pt;
+            color: gray;
+        }
+
+        #id,#pw{
+            width: 300px;
+            height: 35px;
+            border: solid 1px;
+            border-radius: 7px;
+            border-color: lightgray;
+            font-size: 8pt;
+        }
+
+        #submit{
+            border: none;
+            color: white;
+            width: 300px;
+            height: 35px;
+            background-color: #0059AB;
+            font-weight: 700;   
+        }
+
+        #message{
+            display: block;
+            font-size: 7pt;
+            margin-top: 10pt;
+            color: red;
+        }

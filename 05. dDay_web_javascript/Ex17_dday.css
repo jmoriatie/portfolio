@@ -1,0 +1,356 @@
+@media screen and (max-width: 760px){
+    .d-day{
+        display: grid;
+        width: 600px;
+        grid-template: 
+            'header' 50px
+            'main' 300px 
+            'footer' 50px
+        ;  
+    }
+
+    /* m header */
+    header{
+        grid-area: header;
+        
+        display: grid;
+        grid-template: 
+            'h-1 h-2' 250px
+        ;
+    }
+
+    #t-cur{
+        width: 75px;
+
+        text-align: center;
+        font-size: 1em;
+        color: white;
+
+        border-radius: 50px;
+        background-color: rgb(352, 82, 87);
+        font-family: 'Dongle', sans-serif;
+    }
+
+    #t-want{
+        width: 75px;
+
+        text-align: center;
+        font-size: 1em;
+        color: white;
+
+        border-radius: 50px;
+        background-color: rgb(221, 40, 64);
+        font-family: 'Dongle', sans-serif;
+    }
+
+    .show-time{
+        margin-top: 10px;
+        font-size: 1em;
+        color: rgb(221, 40, 64);
+    }
+    .show-time p{
+        margin-top: 10px;
+        color: rgb(356, 72, 91);
+    }
+
+    .header-1{
+        grid-area: h-1;
+        width: 280px;
+    }
+    .header-2{
+        grid-area: h-2;
+        width: 280px;
+    }
+
+    /* m - main */
+    main{
+        grid-area: main;
+        
+        display: grid;
+        grid-template-rows: 1fr 2fr 1fr;
+        background-color: rgb(231, 65, 75);
+        border:outset;
+        border-color: pink;
+    }
+
+    .m-1{
+        display: flex;
+        flex-direction: row;
+    }
+    .m-1 article{
+        margin-left: 10px;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .m-1 h3{
+        width: 125px;
+        height: 125px;
+
+        border-radius: 15px;
+        background-color: rgb(221, 40, 64);
+        text-align: center;
+        margin-left: 10px;
+    }
+
+    .m-1-print{
+        /* 표시 */
+        padding-top: 35px;
+        font-size: 3em;
+        color: white;
+    }
+    .m-1-check{
+        color: white;
+        text-align: center;
+        font-size: 10pt;
+    }
+
+    #printC{
+        width: 150px;
+        display:block;
+        color: white;
+        text-align: center;
+        font-size: 1em;
+        padding-left: 200px;
+        font-family: 'Noto Sans KR', sans-serif;
+    }
+
+    /* m - footer */
+    footer{
+        display: flex;
+        flex-direction: row;
+        grid-area: footer;
+    }
+    footer div{
+        display: flex;
+        margin-top: 10px;
+    }
+
+    #text1{
+        width: 80px;
+        height: 20px;
+
+        border-radius: 10px;
+    }
+    #text2{
+        width: 80px;
+        height: 15px;
+
+        border-radius: 10px;
+        margin-left: 25px;
+        /* margin-right: 0px; */
+
+    }
+
+    #text1-1{
+        margin-top: 5px;
+        color: black;
+        font-size: 10pt;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .day-con input{
+        width: 130px;
+        height: 20px;
+        color: white;
+        border-radius: 5px;
+        border-color: white;
+        border:transparent;
+        background-color: rgb(352, 82, 87);
+        font-size: 8pt;
+        text-align: center;
+    }
+
+
+    #time-con1, #time-con2{
+        width: 70px;
+        height: 20px;
+
+        color: white;
+        font-size: 10pt;
+        
+        border-radius: 10px;
+        background-color: rgb(352, 82, 87);
+        font-family: 'Oswald', sans-serif;
+    }
+}
+
+
+
+@media screen and (min-width: 760px){
+    .d-day{
+        display: grid;
+        padding-top: 50px;
+        padding-left: 100px;
+        width: 1000px;
+        grid-template: 
+            'header' 100px
+            'main' 500px 
+            'footer' 100px
+        ;
+    }
+
+    /* header 영역 */
+    header{
+        grid-area: header;
+        display: grid;
+        grid-template: 
+            'h-1 h-2' 500px
+        ;
+    }
+
+    #t-cur{
+        width: 150px;
+
+        text-align: center;
+        font-size: 2em;
+        color: white;
+
+        border-radius: 50px;
+        background-color: rgb(352, 82, 87);
+        font-family: 'Dongle', sans-serif;
+    }
+
+    #t-want{
+        width: 150px;
+
+        text-align: center;
+        font-size: 2em;
+        color: white;
+
+        border-radius: 50px;
+        background-color: rgb(221, 40, 64);
+        font-family: 'Dongle', sans-serif;
+    }
+
+    .show-time{
+        margin-top: 10px;
+        font-size: 2em;
+        color: rgb(221, 40, 64);
+    }
+    .show-time p{
+        margin-top: 10px;
+        color: rgb(356, 72, 91);
+    }
+
+    .header-1{
+        grid-area: h-1;
+        width: 600px;
+    }
+    .header-2{
+        grid-area: h-2;
+        width: 600px;
+    }
+
+    /* main 영역 */
+    main{
+        grid-area: main;
+        
+        display: grid;
+        grid-template: auto;
+        background-color: rgb(231, 65, 75);
+        border:outset;
+        border-color: pink;
+    }
+
+    .m-1{
+        display: flex;
+        flex-direction: row;
+    }
+    .m-1 article{
+        margin-left: 15px;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .m-1 h3{
+        width: 250px;
+        height: 250px;
+
+        border-radius: 30px;
+        background-color: rgb(221, 40, 64);
+        text-align: center;
+        margin-left: 25px;
+    }
+
+    .m-1-print{
+    /* 표시 */
+        padding-top: 70px;
+        font-size: 6em;
+        color: white;
+    }
+    .m-1-check{
+        color: white;
+        text-align: center;
+        font-size: 15pt;
+    }
+
+    #printC{
+        width: 300px;
+        display:block;
+        color: white;
+        text-align: center;
+        font-size: 20pt;
+        margin-left: 450px;
+        font-family: 'Noto Sans KR', sans-serif;
+    }
+    /* footer 영역 */
+    footer{
+        display: flex;
+        flex-direction: row;
+        grid-area: footer;
+    }
+    footer div{
+        display: flex;
+        margin-top: 30px;
+    }
+
+    #text1{
+        width: 100px;
+        height: 40px;
+
+        border-radius: 10px;
+    }
+    #text2{
+        width: 100px;
+        height: 30px;
+
+        border-radius: 10px;
+        margin-left: 50px;
+        margin-right: 0px;
+
+    }
+
+    #text1-1{
+        margin-top: 10px;
+        color: black;
+        font-size: 13pt;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .day-con input{
+        width: 200px;
+        height: 40px;
+        color: white;
+        border-radius: 10px;
+        border-color: white;
+        border:transparent;
+        background-color: rgb(352, 82, 87);
+        font-size: 13pt;
+        text-align: center;
+    }
+
+
+    #time-con1, #time-con2{
+        width: 70px;
+        height: 40px;
+
+        color: white;
+        font-size: 13pt;
+        
+        border-radius: 10px;
+        background-color: rgb(352, 82, 87);
+        font-family: 'Oswald', sans-serif;
+    }
+}
+
+
+

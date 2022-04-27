@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+       * {
+            margin: 0px;
+            padding: 0px;
+            
+        }
+
+        #a {
+            display: grid;
+            grid-template:
+                "sec1 sec2 sec3" 1fr
+                / 1fr 300px 1fr
+                ;
+            font-size: 10pt;
+            height: auto;
+        }
+
+        #sec1 {
+            grid-area: sec1;
+            background-color: #F5F6F7;
+        }
+        
+        #sec2 {
+            grid-area: sec2;
+            width: 300px;
+            background-color: #F5F6F7;
+        }
+
+        #sec3 {
+            grid-area: sec3;
+            background-color: #F5F6F7;
+        }
+
+        .join_header{
+            text-align: center;
+        }
+
+        #title {
+            font-size: 35pt;
+            margin-bottom: 5vh;
+            color: #0059AB;
+            font-weight: 900;
+            cursor: pointer;            
+        }
+
+        .join_main span{
+            font-size: 8pt;
+        }
+        .join_main p{
+            font-size: 6pt;
+            font-family: 'IBM Plex Sans KR', sans-serif;
+            font-weight:900;
+        }
+        .join_main input{
+            width: 250px;
+            height: 28px;
+            border:solid 0.5px;
+            border-color: lightgray;
+            font-family: 'IBM Plex Sans KR', sans-serif;
+            font-size: 6pt;
+            font-weight: lighter;
+        }
+
+        select{
+            margin-bottom: 1vh;
+            width: 250px;
+            height: 28px;
+            border:solid 0.5px;
+            border-color: lightgray;
+            font-size: 6pt;
+        }
+
+        #check_tel,
+        #tel{
+            width: 165px;
+            height: 28px;
+            border:solid 0.5px;
+            border-color: lightgray;
+            font-size: 6pt;
+        }
+
+        #check_tel{
+            width: 80px;
+            background-color: #0059AB;
+            color: white;
+            font-weight: 700;
+        }
+
+        .message {
+            margin-bottom: 2vh;
+            color: red;
+            font-size: 6pt;
+            
+        }
+
+        #submitBtn{
+            color: white;
+            height: 35px;
+            background-color: #0059AB;
+            font-weight: 700;   
+        }
+        @media screen and (max-width: 760px) {
+            #title {
+                font-size: 25pt;
+            }
+
+            #sec1 {
+                grid-area: sec1;
+            }
+            
+            #sec3 {
+                grid-area: sec3;
+                
+            }
+        }

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:title" content="D-DAY WEB">
+	<meta property="og:description" content="D-DAY를 설정해볼 수 있습니다, 그냥 해 볼 수만 있습니다">
+	<meta property="og:image" content="http://t1.daumcdn.net/friends/prod/editor/dc8b3d02-a15a-4afa-a88b-989cf2a50476.jpg">
+    
+    <link type="text/css" rel="stylesheet" href="Ex17_dday.css">
+
+    <title>D-DaY</title>
+</head>
+
+<body>
+    <div class="d-day" id="test">
+        <header>
+            <section class="header-1">
+                <article class="header-src">
+                    <div id="t-cur">
+                        현재 날짜
+                    </div>
+                    <div class="show-time" id="curTime">
+                        <!-- 현재 시간 -->
+                    </div>
+                </article>
+            </section>
+            <section class="header-2">
+                <article class="header-src">
+                    <div id="t-want">
+                        D-DAY
+                    </div>
+                    <div class="show-time" id="dTime">
+                        <!-- 2021년 10월 25일 11시 46분 1초 목요일 -->
+                    </div>
+                </article>
+            </section>
+        </header>
+
+        <main>
+            <!-- 디데이 (년, 월, 일, 시, 분, 초, 밀리초 : 8개) -->
+            <section class="m-1">
+                <article>
+                    <h3>
+                        <p class="m-1-print" id="date">
+                            <!-- 남은 일자 나오는 영역 -->
+                        </p>
+                    </h3>
+                    <p class="m-1-check">DATE</p>
+                </article>
+                <article>
+                    <h3>
+                        <p class="m-1-print" id="hour"></p>
+                    </h3>
+                    <p class="m-1-check">HOUR</p>
+                </article>
+                <article>
+                    <h3>
+                        <p class="m-1-print" id="minuten"></p>
+                    </h3>
+                    <p class="m-1-check">MINUTEN</p>
+                </article>
+                <article>
+                    <h3>
+                        <p class="m-1-print" id="second"></p>
+                    </h3>
+                    <p class="m-1-check">SECOND</p>
+                </article>
+            </section>
+            <section class="m-2">
+                <article id="printC">
+                    <!-- 지남, 남음 프린트 해주는 영역 -->
+                </article>
+            </section>
+        </main>
+        <!-- footer  -->
+        <footer>
+            <!-- 이벤트명 : change -->
+            <!-- e.target.value -->
+                <div id="text1">
+                    <div id="text1-1">D-DAY 설정 </div>
+                </div>
+                <div class="day-con">
+                    <input type="date" id="setDay">
+                </div>
+                <div id="text2">
+                    <div id="text1-1">시간 설정</div>
+                </div>
+                <div class="day-con">
+                    <select id="time-con1">
+                        <!-- 시간 설정하는 구간 -->
+                    </select>
+                </div>
+                <div id="text2">
+                    <div id="text1-1">분 설정</div>
+                </div>
+                <div class="day-con">
+                    <select id="time-con2">
+                        <!-- 분 설정하는 구간 -->
+                    </select>
+                </div>
+
+        </footer>
+    </div>
+
+    <script src="Ex17_dday.js"></script>
+</body>
+
+</html>

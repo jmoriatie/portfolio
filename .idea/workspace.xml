@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="232a9850-1ce5-4c61-9074-6c61f437ee03" name="변경" comment="리펙토링 시작">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_classic_1_2_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__ch_qos_logback_logback_core_1_2_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_module_jackson_module_parameter_names_2_13_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_googlecode_json_simple_json_simple_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jayway_jsonpath_json_path_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_sun_activation_jakarta_activation_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_sun_istack_istack_commons_runtime_3_0_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_zaxxer_HikariCP_4_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_servlet_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__mysql_mysql_connector_java_8_0_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_11_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_agent_1_11_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_minidev_accessors_smart_2_4_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_minidev_json_smart_2_4_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_api_2_17_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_logging_log4j_log4j_to_slf4j_2_17_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_core_9_0_56.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_el_9_0_56.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_jasper_9_0_55.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_56.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_tomcat_tomcat_annotations_api_9_0_56.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_aspectj_aspectjweaver_1_9_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_assertj_assertj_core_3_21_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_eclipse_jdt_ecj_3_18_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_jaxb_jaxb_runtime_2_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_glassfish_jaxb_txw2_2_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hibernate_hibernate_core_5_6_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jboss_jandex_2_2_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jboss_logging_jboss_logging_3_4_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_params_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_core_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_junit_jupiter_4_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_ow2_asm_asm_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_projectlombok_lombok_1_18_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_jul_to_slf4j_1_7_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_autoconfigure_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_aop_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_data_jpa_2_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_jdbc_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_json_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_logging_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_test_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_tomcat_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_web_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_test_autoconfigure_2_6_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_data_spring_data_commons_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_data_spring_data_jpa_2_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_aop_5_3_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_aspects_5_3_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_beans_5_3_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_context_5_3_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_core_5_3_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_expression_5_3_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_jcl_5_3_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_jdbc_5_3_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_orm_5_3_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_test_5_3_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_tx_5_3_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_web_5_3_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_webmvc_5_3_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_xmlunit_xmlunit_core_2_8_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_yaml_snakeyaml_1_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__taglibs_standard_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/MovieShelf.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/MovieShelf.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/MovieShelf.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ms.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/java/com/example/movieshelf/MovieShelfApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/java/com/example/movieshelf/ServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/java/com/example/movieshelf/controller/BoardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/java/com/example/movieshelf/controller/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/java/com/example/movieshelf/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/java/com/example/movieshelf/controller/MovieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/java/com/example/movieshelf/controller/MovieRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/java/com/example/movieshelf/controller/MypageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/java/com/example/movieshelf/controller/SignController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/java/com/example/movieshelf/controller/TalkController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/java/com/example/movieshelf/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/java/com/example/movieshelf/controller/WishController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/java/com/example/movieshelf/domain/Comment/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/java/com/example/movieshelf/domain/Comment/CommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/java/com/example/movieshelf/domain/Comment/CommentRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/java/com/example/movieshelf/domain/Movie/APIRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/java/com/example/movieshelf/domain/Movie/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/java/com/example/movieshelf/domain/Movie/MovieRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/java/com/example/movieshelf/domain/Movie/MovieRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/java/com/example/movieshelf/domain/Talk/Talk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/java/com/example/movieshelf/domain/Talk/TalkRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/java/com/example/movieshelf/domain/Talk/TalkRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/java/com/example/movieshelf/domain/User/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/java/com/example/movieshelf/domain/User/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/java/com/example/movieshelf/domain/User/UserRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/java/com/example/movieshelf/domain/Wish/Wish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/java/com/example/movieshelf/domain/Wish/WishRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/java/com/example/movieshelf/domain/Wish/WishRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/java/com/example/movieshelf/service/CommentService/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/java/com/example/movieshelf/service/CommentService/CommentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/java/com/example/movieshelf/service/MovieService/MovieService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/java/com/example/movieshelf/service/MovieService/MovieServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/java/com/example/movieshelf/service/TalkService/TalkService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/java/com/example/movieshelf/service/TalkService/TalkServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/java/com/example/movieshelf/service/UserService/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/java/com/example/movieshelf/service/UserService/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/java/com/example/movieshelf/service/WishService/WishService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/java/com/example/movieshelf/service/WishService/WishServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/resources/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/resources/static/css/tablestyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/resources/static/img/BoxOffice.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/resources/static/img/OSCAR.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/resources/static/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/resources/static/script/academy/academy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/resources/static/script/board/board.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/resources/static/script/boxOffice/boxOffice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/resources/static/script/main/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/resources/static/script/myPage/myPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/resources/static/script/search/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/resources/static/script/signUp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/webapp/WEB-INF/academy/academy.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/webapp/WEB-INF/board/boardList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/webapp/WEB-INF/board/boardUpdate.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/webapp/WEB-INF/board/boardView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/webapp/WEB-INF/board/boardView_comment.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/webapp/WEB-INF/board/boardView_commentUpdate.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/webapp/WEB-INF/board/boardView_plusCommentAdd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/webapp/WEB-INF/board/boardWrite.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/webapp/WEB-INF/boxoffice/boxoffice.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/webapp/WEB-INF/footer_.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/webapp/WEB-INF/header_.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/webapp/WEB-INF/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/webapp/WEB-INF/mypage/mypage_comment.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/webapp/WEB-INF/mypage/mypage_main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/webapp/WEB-INF/mypage/mypage_update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/webapp/WEB-INF/search/search.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/webapp/WEB-INF/sign/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/main/webapp/WEB-INF/sign/signUp.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01.MovieShelf_spring_boot/src/test/java/com/example/movieshelf/MovieShelfApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/.settings/.jsdtscope" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/.settings/org.eclipse.wst.common.component" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/java/controller/ActionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/java/controller/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/java/controller/action/Action.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/java/controller/action/IndexAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/java/controller/action/IndexFormAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/java/controller/action/board/BoardDeleteAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/java/controller/action/board/BoardLikeAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/java/controller/action/board/BoardListAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/java/controller/action/board/BoardUpdateAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/java/controller/action/board/BoardUpdateFormAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/java/controller/action/board/BoardViewAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/java/controller/action/board/BoardWriteAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/java/controller/action/board/BoardWriteFormAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/java/controller/action/user/JoinAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/java/controller/action/user/JoinCheckAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/java/controller/action/user/JoinCheckForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/java/controller/action/user/JoinFormAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/java/controller/action/user/LoginAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/java/controller/action/user/LoginFormAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/java/controller/action/user/LogoutAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/java/controller/action/user/MainAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/java/controller/action/user/UserDeleteAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/java/model/dao/BoardDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/java/model/dao/CommentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/java/model/dao/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/java/model/dto/BoardDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/java/model/dto/CommentDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/java/model/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/java/util/DBManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/webapp/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/webapp/WEB-INF/classes/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/webapp/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/webapp/WEB-INF/lib/mysql-connector-java-8.0.27.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/webapp/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/webapp/_0_indexForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/webapp/_1_index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/webapp/database/testPing.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/webapp/resources/profile/man.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/webapp/resources/profile/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/webapp/resources/profile/woman.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/webapp/resources/user.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/webapp/views/_01_main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/webapp/views/_02-1_joinCheck.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/webapp/views/_02-1_joinCheckForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/webapp/views/_02_login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/webapp/views/_03_join.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/webapp/views/_04_boardList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/webapp/views/_05_boardWrite.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/webapp/views/_06_boardView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02. login,board_MVC2/src/main/webapp/views/_07_boardUpdate.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/.settings/.jsdtscope" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/.settings/org.eclipse.wst.common.component" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/java/board/BoardDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/java/board/BoardDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/java/member/MemberDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/java/member/MemberDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/java/rentCar/RentCarDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/java/rentCar/RentCarDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/java/reserve/ReserveDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/java/reserve/ReserveDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/java/util/DBManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/WEB-INF/lib/mysql-connector-java-8.0.27.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/_00_index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/_01-1_logoutPro.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/_01_login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/_01_loginPro.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/_02_join.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/_02_joinPro.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/_03_myPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/_04-1_memberDelete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/_04-2_memberDeletePro.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/_04_memberUpdate.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/_04_memberUpdatePro.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/_0_footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/_0_header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/_5-0_boardSearchList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/_5-1_boardList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/_5-2_boardWrite.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/_5-3_boardWritePro.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/_5-4_boardView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/_5-5_boardUpdate.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/_5-6_boardUpdatePro.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/_5-7_boardDelete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/_5-8_boardDeletePro.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/_5-9_commentDeletePro.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/_5-9_commentsPro.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/_5-9_likesPro.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/_6-0_rentCarSearchList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/_6-1_rentCarList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/_6-2_rentCarView.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/_6-3_reserve.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/_6-4_reservePro.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/_6-5_reserveDeletePro.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/database/testPing.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/img/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/img/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/img/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/img/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/img/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/img/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/img/16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/img/17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/img/18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/img/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/img/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/img/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/img/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/img/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/img/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/img/rent_logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/resources/css/_00_index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/resources/css/_01_login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/resources/css/_02_join.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/resources/javascript/_01_login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03. rentCar-web/src/main/webapp/resources/javascript/_02_join.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04. bookSearch/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04. bookSearch/search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04. bookSearch/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04. bookSearch/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05. dDay_web_javascript/Ex17_dday.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05. dDay_web_javascript/Ex17_dday.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05. dDay_web_javascript/Ex17_dday.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05. dDay_web_javascript/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/bin/contents/MenuCoffee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/bin/contents/MenuTeaNAde.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/bin/contents/OrderCount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/bin/contents/SaveNLoad.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/bin/data/Coffee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/bin/data/TeaNAde.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/bin/main/Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/bin/main/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/bin/manager/ManagerInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/bin/manager/ManagerMain.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/bin/module-info.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/bin/util/Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/coffee/coffee01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/coffee/coffee02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/coffee/coffee03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/coffee/coffee04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/coffee/coffee05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/coffee/coffee06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/coffee/coffee07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/coffee/coffee08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/coffee/coffee09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/coffee/coffee10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/coffee/coffee11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/coffee/coffee12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/coffee/coffee13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/coffee/coffee14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/coffee/coffee15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/coffee/coffee16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/coffee/coffee_sub01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/coffee/coffee_sub02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/coffee/coffee_sub03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/coffee/coffee_sub04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/coffee/coffee_sub05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/coffee/coffee_sub06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/coffee/coffee_sub07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/coffee/coffee_sub08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/coffee/coffee_sub09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/coffee/coffee_sub10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/coffee/coffee_sub11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/coffee/coffee_sub12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/coffee/coffee_sub13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/coffee/coffee_sub14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/coffee/coffee_sub15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/coffee/coffee_sub16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/endGif.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/finishUnderbar(bpink).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/hello.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/img_ethi.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/inDrink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/lastIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/main_info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/menuUnderbar(bpink).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/minusButton2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/ok_mark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/orderReturn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/payment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/paymentUnderbar(bpink).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/plusButton2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/pointUnderbar(bpink).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/posPic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/takeout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/teaNAde/tea01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/teaNAde/tea02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/teaNAde/tea03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/teaNAde/tea04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/teaNAde/tea05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/teaNAde/tea06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/teaNAde/tea07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/teaNAde/tea08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/teaNAde/tea09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/teaNAde/tea10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/teaNAde/tea11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/teaNAde/tea12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/teaNAde/tea13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/teaNAde/tea14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/teaNAde/tea15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/teaNAde/tea16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/teaNAde/tea_sub01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/teaNAde/tea_sub02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/teaNAde/tea_sub03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/teaNAde/tea_sub04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/teaNAde/tea_sub05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/teaNAde/tea_sub06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/teaNAde/tea_sub07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/teaNAde/tea_sub08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/teaNAde/tea_sub09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/teaNAde/tea_sub10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/teaNAde/tea_sub11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/teaNAde/tea_sub12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/teaNAde/tea_sub13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/teaNAde/tea_sub14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/teaNAde/tea_sub15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/teaNAde/tea_sub16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kiosk/text_info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/kioskData" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/src/contents/MenuCoffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/src/contents/MenuTeaNAde.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/src/contents/OrderCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/src/contents/SaveNLoad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/src/data/Coffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/src/data/TeaNAde.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/src/main/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/src/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/src/manager/ManagerInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/src/manager/ManagerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/src/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06 .kiosk_GUI/src/util/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07. CrazyAcade_GUI/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07. CrazyAcade_GUI/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07. CrazyAcade_GUI/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07. CrazyAcade_GUI/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07. CrazyAcade_GUI/bin/data/Data.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07. CrazyAcade_GUI/bin/data/Images.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07. CrazyAcade_GUI/bin/game/Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07. CrazyAcade_GUI/bin/game/CrazyAcade.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07. CrazyAcade_GUI/bin/game/InGame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07. CrazyAcade_GUI/bin/main/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07. CrazyAcade_GUI/bin/module-info.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07. CrazyAcade_GUI/bin/util/Util.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07. CrazyAcade_GUI/images/bazzi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07. CrazyAcade_GUI/images/bomb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07. CrazyAcade_GUI/images/brick.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07. CrazyAcade_GUI/images/grass.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07. CrazyAcade_GUI/images/item.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07. CrazyAcade_GUI/images/map.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07. CrazyAcade_GUI/src/data/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07. CrazyAcade_GUI/src/data/Images.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07. CrazyAcade_GUI/src/game/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07. CrazyAcade_GUI/src/game/CrazyAcade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07. CrazyAcade_GUI/src/game/InGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07. CrazyAcade_GUI/src/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07. CrazyAcade_GUI/src/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07. CrazyAcade_GUI/src/util/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08. Paint_GUI/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08. Paint_GUI/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08. Paint_GUI/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08. Paint_GUI/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08. Paint_GUI/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08. Paint_GUI/src/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08. Paint_GUI/src/paintDev/Ex04_Drag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08. Paint_GUI/src/paintDev/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08. Paint_GUI/src/paintDev/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08. Paint_GUI/src/paintDev/MyUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08. Paint_GUI/src/paintDev/Poly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08. Paint_GUI/src/paintDev/Rect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08. Paint_GUI/src/paintDev/Round.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/01. MovieShelf_spring_boot">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/1. MovieShelf_springboot">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/MovieShelf">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/MovieShelf">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/1. MovieShelf_springboot">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/01. MovieShelf_spring_boot">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MovieShelf" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MovieShelf" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/main" />
+  </component>
+  <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="main" />
+                <branch-info repo="$PROJECT_DIR$/01. MovieShelf_spring_boot" source="main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/01. MovieShelf_spring_boot" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="KEEP" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="23fSbXRUW8tAvuo2LWDkIxZTsVx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="모듈" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2091954" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.movieshelf.service.MovieService" />
+      <recent name="com.example.movieshelf.service.WishService" />
+      <recent name="com.example.movieshelf.service.UserService" />
+      <recent name="com.example.movieshelf.service.CommentService" />
+      <recent name="com.example.movieshelf.service.TalkService" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/01. MovieShelf_spring_boot/src/main/java/com/example/movieshelf/controller" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle bootWar" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.01. MovieShelf_spring_boot [bootWar]">
+    <configuration name="movieShelf" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.example.movieshelf.MovieShelfApplication" />
+      <module name="com.example.MovieShelf.main" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8084" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01. MovieShelf_spring_boot" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="01. MovieShelf_spring_boot [bootWar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/01. MovieShelf_spring_boot" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootWar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MovieShelfApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="com.example.MovieShelf.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.movieshelf.MovieShelfApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.movieShelf" />
+      <item itemvalue="Gradle.01. MovieShelf_spring_boot [bootWar]" />
+      <item itemvalue="Spring Boot.MovieShelfApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.01. MovieShelf_spring_boot [bootWar]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="232a9850-1ce5-4c61-9074-6c61f437ee03" name="변경" comment="" />
+      <created>1642123720471</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642123720471</updated>
+      <workItem from="1642123721313" duration="3303000" />
+      <workItem from="1642129320085" duration="8163000" />
+      <workItem from="1642208796232" duration="209000" />
+      <workItem from="1642209091519" duration="57000" />
+      <workItem from="1642209280429" duration="88000" />
+      <workItem from="1642209669003" duration="2348000" />
+      <workItem from="1642215592622" duration="1559000" />
+      <workItem from="1642381436977" duration="990000" />
+      <workItem from="1642382559188" duration="3246000" />
+      <workItem from="1642746318517" duration="806000" />
+      <workItem from="1642755769296" duration="1483000" />
+      <workItem from="1642757328918" duration="4647000" />
+      <workItem from="1642769728691" duration="95000" />
+      <workItem from="1642827391657" duration="34606000" />
+      <workItem from="1643199251411" duration="8665000" />
+      <workItem from="1643559957774" duration="1859000" />
+      <workItem from="1643562333831" duration="1480000" />
+      <workItem from="1650856805713" duration="6292000" />
+    </task>
+    <task id="LOCAL-00001" summary="# movieshelf 환경설정">
+      <created>1642212826386</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1642212826387</updated>
+    </task>
+    <task id="LOCAL-00002" summary="# movieshelf 환경설정">
+      <created>1642212975699</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1642212975700</updated>
+    </task>
+    <task id="LOCAL-00003" summary="불필요한 파일 삭제">
+      <created>1650857544825</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1650857544826</updated>
+    </task>
+    <task id="LOCAL-00004" summary="불필요한 파일 삭제">
+      <created>1650857916670</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1650857916671</updated>
+    </task>
+    <task id="LOCAL-00005" summary="불필요한 파일 삭제">
+      <created>1650857924200</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1650857924200</updated>
+    </task>
+    <task id="LOCAL-00006" summary="불필요한 파일 삭제">
+      <created>1650857958827</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1650857958827</updated>
+    </task>
+    <task id="LOCAL-00007" summary="불필요한 파일 삭제">
+      <created>1650857969340</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1650857969340</updated>
+    </task>
+    <task id="LOCAL-00008" summary="불필요한 파일 삭제">
+      <created>1650941598196</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1650941598196</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/MovieShelf" />
+      <path value="$PROJECT_DIR$/1. MovieShelf_springboot" />
+      <path value="$PROJECT_DIR$/" />
+      <path value="$PROJECT_DIR$/portfolio" />
+      <path value="$PROJECT_DIR$/01. MovieShelf_spring_boot" />
+    </ignored-roots>
+    <MESSAGE value="# movieshelf 환경설정" />
+    <MESSAGE value="불필요한 파일 삭제" />
+    <MESSAGE value="디렉토리 변경" />
+    <MESSAGE value="리펙토링 시작" />
+    <option name="LAST_COMMIT_MESSAGE" value="리펙토링 시작" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

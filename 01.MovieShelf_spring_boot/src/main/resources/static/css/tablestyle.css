@@ -1,0 +1,268 @@
+#academyRadio{
+    display: flex;
+}
+
+#academyRadio ul{
+    list-style:none;
+}
+#academyRadio ul li{
+    float: left;
+    margin-right: 10px;
+}
+
+.contentContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.comments thead th{
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #369;
+    border-bottom: 3px solid #036;
+}
+
+.comments td{
+    padding: 20px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+}
+
+.comments .plusCommentArea{
+    margin-left: 30px;
+}
+
+
+
+.table {
+    table-layout:fixed;
+    width:100%;
+    text-align:center;
+}
+.table th {
+    background: #f3f6f7;
+}
+.table td, .table th {
+    padding:10px 20px;
+    border-top:1px solid #ccc;
+    word-break:break-all
+}
+@media only screen and (min-width : 319px) and (max-width : 991px){
+    /*block*/
+    .table--block--boardList thead,
+    .table--block--boxoffice thead,
+    .table--block--academy thead,
+    .table--block--boardView thead,
+    .table--block--boardWrite thead,
+    .table--block--searchWrite thead,
+    .table--block--mypage1 thead,
+    .table--block--mypage2 thead,
+    .table--block--mypage3 thead,
+    .table--block--thinkComment thead,
+    .table--block--search thead{
+        display:none;
+    }
+    .table--block--boardList tr,
+    .table--block--boxoffice tr,
+    .table--block--academy tr,
+    .table--block--boardView tr,
+    .table--block--boardWrite tr,
+    .table--block--searchWrite tr,
+    .table--block--mypage1 tr,
+    .table--block--mypage2 tr,
+    .table--block--mypage3 tr,
+    .table--block--thinkComment tr,
+    .table--block--search tr{
+        display:block;
+        margin-bottom:10px;
+        border-top:none;
+    }
+    .table--block--boardList th, .table--block--boardList td,
+    .table--block--boxoffice th, .table--block--boxoffice td,
+    .table--block--academy th, .table--block--academy td,
+    .table--block--boardView th, .table--block--boardView td,
+    .table--block--boardWrite th, .table--block--boardWrite td,
+    .table--block--searchWrite th, .table--block--searchWrite td,
+    .table--block--mypage1 th, .table--block--mypage1 td,
+    .table--block--mypage2 th, .table--block--mypage2 td,
+    .table--block--mypage3 th, .table--block--mypage3 td,
+    .table--block--thinkComment th, .table--block--thinkComment td,
+    .table--block--search th, .table--block--search td{
+        display:block;
+        position:relative;
+        padding:10px 0;
+        padding-left:20%;
+        border-width:0 0 1px 0;
+    }
+
+    .table--block--boardList td::before,
+    .table--block--boxoffice td::before,
+    .table--block--academy td::before,
+    .table--block--boardView td::before,
+    .table--block--boardWrite td::before,
+    .table--block--searchWrite td::before,
+    .table--block--mypage1 td::before,
+    .table--block--mypage2 td::before,
+    .table--block--mypage3 td::before,
+    .table--block--thinkComment td::before,
+    .table--block--search td::before{
+        display:block;
+        position:absolute;
+        left:0;
+        top:0;
+        width:20%;
+        padding:10px 0;
+        background: #f3f6f7;
+
+    }
+    .table--block--boardList td:nth-child(1)::before {content:'포스터';}
+    .table--block--boardList td:nth-child(2)::before {content:'영화명';}
+    .table--block--boardList td:nth-child(3)::before {content:'제목';}
+    .table--block--boardList td:nth-child(4)::before {content:'작성자';}
+    .table--block--boardList td:nth-child(5)::before {content:'좋아요';}
+    .table--block--boardList td:nth-child(6)::before {content:'작성일';}
+
+    .table--block--boxoffice td:nth-child(1)::before {content:'순위';}
+    .table--block--boxoffice td:nth-child(2)::before {content:'포스터';}
+    .table--block--boxoffice td:nth-child(3)::before {content:'제목';}
+    .table--block--boxoffice td:nth-child(4)::before {content:'개봉일';}
+    .table--block--boxoffice td:nth-child(5)::before {content:'일일 관객수';}
+    .table--block--boxoffice td:nth-child(6)::before {content:'누적 관객수';}
+
+    .table--block--academy td:nth-child(1)::before {content:'포스터';}
+    .table--block--academy td:nth-child(2)::before {content:'영화명';}
+    .table--block--academy td:nth-child(3)::before {content:'장르';}
+    .table--block--academy td:nth-child(4)::before {content:'IMDB 점수';}
+    .table--block--academy td:nth-child(5)::before {content:'개봉일';}
+    .table--block--academy td:nth-child(6)::before {content:'상영시간';}
+    .table--block--academy td:nth-child(7)::before {content:'감독';}
+    .table--block--academy td:nth-child(8)::before {content:'주연';}
+    .table--block--academy td:nth-child(9)::before {content:'나중에 볼 영화';}
+
+    .table--block--boardView td:nth-child(1)::before {content:'영화명';}
+    .table--block--boardView td:nth-child(2)::before {content:'제목';}
+    .table--block--boardView td:nth-child(3)::before {content:'작성자';}
+    .table--block--boardView td:nth-child(4)::before {content:'좋아요 수';}
+    .table--block--boardView td:nth-child(5)::before {content:'작성일';}
+
+    .table--block--boardWrite td:nth-child(1)::before {content:'영화명';}
+    .table--block--boardWrite td:nth-child(2)::before {content:'제목';}
+
+    .table--block--searchWrite td:nth-child(1)::before {content:'포스터';}
+    .table--block--searchWrite td:nth-child(2)::before {content:'제목';}
+    .table--block--searchWrite td:nth-child(3)::before {content:'감독';}
+
+    .table--block--mypage1 td:nth-child(1)::before {content:'번호';}
+    .table--block--mypage1 td:nth-child(2)::before {content:'제목';}
+    .table--block--mypage1 td:nth-child(3)::before {content:'좋아요';}
+    .table--block--mypage1 td:nth-child(4)::before {content:'작성일';}
+    .table--block--mypage1 td:nth-child(5)::before {content:'삭제';}
+
+    .table--block--mypage2 td:nth-child(1)::before {content:'번호';}
+    .table--block--mypage2 td:nth-child(2)::before {content:'댓글';}
+    .table--block--mypage2 td:nth-child(3)::before {content:'대댓글';}
+    .table--block--mypage2 td:nth-child(4)::before {content:'작성일';}
+    .table--block--mypage2 td:nth-child(5)::before {content:'삭제';}
+
+    .table--block--mypage3 td:nth-child(1)::before {content:'번호';}
+    .table--block--mypage3 td:nth-child(2)::before {content:'영화번호';}
+    .table--block--mypage3 td:nth-child(3)::before {content:'영화제목';}
+    .table--block--mypage3 td:nth-child(4)::before {content:'선택일';}
+    .table--block--mypage3 td:nth-child(5)::before {content:'그때생각';}
+    .table--block--mypage3 td:nth-child(6)::before {content:'수정';}
+    .table--block--mypage3 td:nth-child(7)::before {content:'삭제';}
+
+    .table--block--thinkComment td:nth-child(1)::before {content:'포스터';}
+    .table--block--thinkComment td:nth-child(2)::before {content:'영화명';}
+    .table--block--thinkComment td:nth-child(3)::before {content:'감독';}
+
+    .table--block--academy td:nth-child(1)::before {content:'포스터';}
+    .table--block--academy td:nth-child(2)::before {content:'영화명';}
+    .table--block--academy td:nth-child(3)::before {content:'장르';}
+    .table--block--academy td:nth-child(4)::before {content:'IMDB 점수';}
+    .table--block--academy td:nth-child(5)::before {content:'개봉일';}
+    .table--block--academy td:nth-child(6)::before {content:'상영시간';}
+
+    .table--block--search td:nth-child(1)::before {content:'포스터';}
+    .table--block--search td:nth-child(2)::before {content:'영화제목';}
+    .table--block--search td:nth-child(3)::before {content:'제작일';}
+    .table--block--search td:nth-child(4)::before {content:'감독';}
+    .table--block--search td:nth-child(5)::before {content:'평점';}
+    .table--block--search td:nth-child(6)::before {content:'찜하기';}
+
+    textarea{
+        padding: 0px;
+        font-size: 11px;
+
+        height: 200px;
+    }
+
+    .btn-primary{
+        font-size: 11px;
+    }
+
+    #contentArea{
+        margin: 10px;
+    }
+
+    .comments thead th{
+        font-size: 11pt;
+    }
+
+    .comments td{
+        font-size: 11pt;
+        padding: 10px;
+    }
+
+    .comments .plusCommentArea{
+        margin-left: 10px;
+    }
+
+    .text-white{
+        font-size: 10pt;
+    }
+
+    #movieMain{
+        display: none;
+    }
+
+    .mainImg{
+        display: none;
+    }
+}
+
+/*#movieMain{*/
+/*    display: flex;*/
+/*}*/
+
+.mainImg{
+    width: 150px;
+    height: 200px;
+    margin-left: 10px;
+}
+
+.addWish{
+    border-bottom: none;
+}
+
+#contentArea{
+    margin: 10px;
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: solid 2px #1E90FF;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: both;
+}
+
+
+
+

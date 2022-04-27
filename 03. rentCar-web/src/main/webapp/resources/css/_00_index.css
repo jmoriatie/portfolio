@@ -1,0 +1,260 @@
+@charset "UTF-8";
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.wrap {
+	display: grid;
+	grid-template: "header header header" 150px "nav nav nav" 50px
+		"main main aside" 1fr "footer footer footer" 150px;
+}
+
+header {
+	grid-area: header;
+	background-color: #60B2FF;
+}
+
+header section {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 2fr 2fr 1fr;
+}
+
+header button {
+	display: inline-block;
+	width: 100px;
+	background-color: #60B2FF;
+	margin-top: 45px;
+	margin-left: 15px;
+	color: white;
+	border: none;
+	font-size: 12pt;
+	font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+#logo img {
+	height: 100px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+#company_name h2 {
+	color: #004C92;
+	font-size: 35pt;
+	text-align: center;
+	margin-top: 45px;
+	font-family: 'Sunflower', sans-serif;
+	font-weight: 700;
+}
+
+.sep {
+	color: white;
+}
+
+header button:hover {
+	text-decoration: underline;
+}
+
+nav {
+	grid-area: nav;
+	background-color: #0059AB;
+}
+
+nav section {
+	margin-left: 5vw;
+}
+
+nav button {
+	font-family: 'IBM Plex Sans KR', sans-serif;
+	background-color: #0059AB;
+	font-size: 12pt;
+	margin-top: 12px;
+	color: white;
+	border: none;
+}
+
+nav section button:hover {
+	text-decoration: underline;
+}
+
+/* 메인 영역 */
+main {
+	grid-area: main;
+}
+
+main .component {
+	margin-left: 50px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.component button{
+	width: 80px;
+	height: 20px;
+	font-size: 10pt;
+	color: black;
+	border-style: none;
+	background-color: #ccc;
+	margin-left: 10px;
+}
+
+
+.myPageTable{
+	border-collapse: separate;
+	border-spacing: 0;
+	text-align: left;
+	line-height: 1.5;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	margin: 20px 10px;
+}
+.myPageTable th{
+	 text-align: center;	
+	 width: 100px;
+	 padding: 10px;
+	 font-weight: bold;
+	 vertical-align: top;
+	 border-right: 1px solid #ccc;
+	 border-bottom: 1px solid #ccc;
+	 border-top: 1px solid #fff;
+	 border-left: 1px solid #fff;
+	 background: #eee;
+}
+.myPageTable td{
+	text-align: center;
+	width: 200px;
+	padding: 10px;
+	vertical-align: top;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.carTable,
+.boardTable,
+.commentTable,
+.showThreeCarTabel {
+	border-collapse: separate;
+	border-spacing: 0;
+	text-align: left;
+	line-height: 1.5;
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	margin: 20px 10px;
+}
+
+.commentTable th,
+.boardTable th{
+  text-align: center;	
+  width: 150px;
+  padding: 10px;
+  font-weight: bold;
+  vertical-align: top;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #fff;
+  border-left: 1px solid #fff;
+  background: #eee;
+}
+
+.boardTable td{
+	text-align: center;
+	width: 150px;
+	padding: 10px;
+	vertical-align: top;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.commentTable .commentTitle{
+    padding: 0px;
+}
+
+
+.commentTable .commentContent{
+	text-align: center;
+	width: 200px;
+	vertical-align: top;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 0px;
+	font-size: 10pt;
+}
+
+.showThreeCarTabel td,
+.carTable td {
+	width: 300px;
+	padding: 10px;
+	vertical-align: top;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+
+.carTable .tdImg {
+	text-align: center;
+}
+
+.info_title {
+	margin-left: 10px;
+}
+
+main #moreBtn {
+	margin-left: 10px;
+	border: none;
+	color: white;
+	width: 200px;
+	height: 25px;
+	background-color: #0059AB;
+	font-weight: 500;
+}
+
+.commentForm,
+.searchForm {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: 10px;
+}
+
+.ok{
+	width: 80px;
+	height: 20px;
+	font-size: 10pt;
+	color: black;
+	border-style: none;
+	background-color: #ccc;	
+}
+
+.commentTable button{
+	background-color: white;
+	border-radius: 0px;
+		
+}
+
+.searchForm span {
+	display: inline-block;
+}
+
+.searchForm input {
+	display: inline-block;
+}
+
+aside {
+	grid-area: aside;
+	background-color: cadetblue;
+}
+
+footer {
+	grid-area: footer;
+	background-color: #60B2FF;
+}
+
+footer p {
+	font-size: 12pt;
+	font-style: bold;
+	margin-top: 20px;
+	color: #0059AB;
+	font-family: 'IBM Plex Sans KR', sans-serif;
+	text-align: center;
+}

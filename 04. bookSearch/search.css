@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header{
+    text-align: center;
+    margin-top: 10%;
+}
+
+/* div */
+.search{
+    font-family: 'Oswald', sans-serif;
+    font-size: 4vw;
+}
+
+
+/* sarch-box */
+#search-box{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Yeon Sung', cursive;
+    width: 20vw;
+    height: 4vh;
+}
+/* submit */
+#name_submit{
+    font-family: 'Yeon Sung', cursive;
+    
+    width: 5vw;
+    height: 3vh;
+}
+
+.view{
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: 'Poor Story', cursive;
+
+}
+
+.view img{
+    width: 12vw;    
+    /* height: 30vh; */
+}
+
+
+.view section{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vh;
+}
+
+.arti_class{
+    width: 25vw;
+    height: 55vh;    
+    border: solid 1px;
+
+    text-align: center;
+
+    margin-top: 5vh;
+    margin-left: 2vh;
+    padding-top: 5vh;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+/* mobile */
+@media screen and (max-width: 760px)  {
+    .search_test{
+        width: auto;
+        height: auto;
+    }
+
+    .title{
+        margin-top: 5%;
+        font-size: 15px;
+        color: black;
+    }
+
+    .content{
+        margin-top: 5%;
+        font-size: 10px;
+    }
+    
+    .price{
+        margin-top: 5%;
+        font-size: 10px;
+        font-style:italic;
+    }
+    .view section{
+        margin-left: 1vh;
+    }
+
+    .arti_class{
+        height: 30vh;    
+    }
+    #name_submit{
+        font-size: 10px;
+        height: 3vh;
+    }
+}
+
+/* pc */
+@media screen and (min-width: 760px)  {
+    .search_test{
+        width: auto;
+        height: auto;
+    }
+
+    .title{
+        margin-top: 5%;
+        font-size: 20px;
+        color: black;
+    }
+
+    .content{
+        margin-top: 5%;
+        font-size: 15px;
+    }
+    
+    .price{
+        margin-top: 5%;
+        font-size: 15px;
+        font-style:italic;
+    }
+}
