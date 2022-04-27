@@ -10,9 +10,11 @@
 #### 08. Java swing을 활용한 그림판 
 
 ---
->> MovieShelf 점퇴근 리펙토링 시작 
-* DIP(dependency inversion principle, 의존관계 역전 원칙) 적용 
-  - Service 객체 추상화 의존(4월 26일)
+###MovieShelf 점심 리펙토링 시작(4월 26일)
+* 4월 26일(월): DIP(dependency inversion principle, 의존관계 역전 원칙) 적용 
+  - Service 객체 추상화 의존
+* 4월 27일(화): 폴더정리, 깃 토큰 갱신 및 저장소 정리
+~~~
 * (예정) 단순업데이트 PutMapping -> PatchMapping 변경
 * (예정) 파라미터 줄이기 -> VO 객체 넘기고 받기
 * (예정) 필요 위치에 맞지 않는 소스 수정
@@ -20,3 +22,4 @@
   - 객체분리
 * (예정) 빈생명주기 관련 수정
 * (예정) 테스트케이스 작성
+~~~
