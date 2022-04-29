@@ -29,7 +29,6 @@ public class TalkServiceImpl implements TalkService {
         return repo.findAll();
     }
 
-
     @Transactional
     public Talk updateTalk(int talk_no, TalkRequestDTO talkRequestDTO){
         Talk talk = getTalk(talk_no);

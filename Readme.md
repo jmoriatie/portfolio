@@ -1,4 +1,4 @@
-# 개인 또는 팀프로젝트를 선별해서 올립니다🐵
+# PORTFOLIO🐵
 ### [목차]
 #### 01. 나만의 영화선반 ‘MovieShelf’ 반응형 웹(팀 프로젝트)
 #### 02. MVC2 patten으로 만들어본 로그인, 게시판
@@ -11,9 +11,10 @@
 
 ---
 ###MovieShelf 점심 리펙토링 시작(4월 26일)
-* 4월 26일(월): DIP(dependency inversion principle, 의존관계 역전 원칙) 적용 
+* 4월 26일(화): DIP(dependency inversion principle, 의존관계 역전 원칙) 적용 
   - Service 객체 추상화 의존
-* 4월 27일(화): 폴더정리, 깃 토큰 갱신 및 저장소 정리
+* 4월 27일(수): 폴더정리, 깃 토큰 갱신 및 저장소 정리
+* 4월 28일(목): 폴더이름 변경에 따른 gradle 정리
 ~~~
 * (예정) 단순업데이트 PutMapping -> PatchMapping 변경
 * (예정) 파라미터 줄이기 -> VO 객체 넘기고 받기
