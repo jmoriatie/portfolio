@@ -65,7 +65,7 @@ public class TalkController {
         return sendTalks;
     }
 
-    @PutMapping("/v1/post/{talk_no}")
+    @PatchMapping("/v1/post/{talk_no}")
     public Talk updateTalk(@PathVariable int talk_no, @RequestBody TalkRequestDTO talkRequestDTO){
         return service.updateTalk(talk_no, talkRequestDTO);
     }

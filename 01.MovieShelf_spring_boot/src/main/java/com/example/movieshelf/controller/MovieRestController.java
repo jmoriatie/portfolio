@@ -50,7 +50,7 @@ public class MovieRestController {
         return service.getMovies();
     }
 
-    @PutMapping("/movie/update/{code}")
+    @PatchMapping("/movie/update/{code}")
     public Movie updateMovie(@PathVariable int code, @RequestBody MovieRequestDTO movieRequestDTO) {
         return service.updateMovie(code, movieRequestDTO);
     }

@@ -42,7 +42,7 @@ public class WishController {
         return sendWishes;
     }
 
-    @PutMapping
+    @PatchMapping
     public Wish updateWish(int wish_no, WishRequestDTO wishRequestDTO){
         return service.updateWish(wish_no, wishRequestDTO);
     }

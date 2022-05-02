@@ -42,7 +42,7 @@ public class UserController {
     }
 
     // 3.Update
-    @PutMapping("/user/update/{code}")
+    @PatchMapping("/user/update/{code}")
     public User updateUser(@PathVariable int code,@RequestBody UserRequestDTO userRequestDto){
         return service.updateUser(code , userRequestDto);
     }

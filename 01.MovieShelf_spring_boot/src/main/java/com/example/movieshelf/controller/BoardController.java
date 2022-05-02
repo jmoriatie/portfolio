@@ -33,12 +33,12 @@ public class BoardController {
     // 영화검색 Controller
     private final MovieRestController mc;
 
-
     @GetMapping("/boardList/{nowPage}")
     public String boardList(@PathVariable String nowPage, HttpServletRequest request) {
-        // 아무것도 없이 들어왔을 때, 1로 돌려줌            nowPage = "1";
+        // 아무것도 없이 들어왔을 때, 1로 돌려줌  nowPage = "1";
         if(nowPage == ""){
         }
+
         // 5개씩만 보이게끔 처리
         int nowPageInt = Integer.parseInt(nowPage);
         int boardListPageSize = tc.getTalks().size()/5;

@@ -37,17 +37,13 @@ public class TalkRequestDTO {
         this.movie_poster = movie_poster;
     }
 
-
-
     public void setTalk_title(String talk_title) {
         this.talk_title = talk_title;
     }
 
-
     public void setTalk_content(String talk_content) {
         this.talk_content = talk_content;
     }
-
 
     public void setTalk_likes(int talk_likes) {
         this.talk_likes = talk_likes;
