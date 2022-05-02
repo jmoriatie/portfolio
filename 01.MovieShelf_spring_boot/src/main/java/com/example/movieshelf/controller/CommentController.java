@@ -49,7 +49,7 @@ public class CommentController {
         return service.addComment( dto );
     }
 
-    @PutMapping("/v1/comments")
+    @PatchMapping("/v1/comments")
     public void updateComments(ArrayList<Comment> comments) {
         service.updateComments(comments);
     }
@@ -111,7 +111,7 @@ public class CommentController {
         return commentRequestDTO;
     }
 
-    @PutMapping("/v1/comment/comment-id={comment_id}")
+    @PatchMapping("/v1/comment/comment-id={comment_id}")
     public Comment updateComment(@PathVariable int comment_id, @RequestBody CommentRequestDTO commentRequestDTO) {
         return service.updateComment(comment_id, commentRequestDTO);
     }

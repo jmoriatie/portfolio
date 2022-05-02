@@ -26,7 +26,7 @@ public class TalkController {
         return service.getTalks();
     }
 
-    @GetMapping("/v1/post/page={nowPage}")
+    @GetMapping("/v1/post/page={nowPageInt}")
     public List<Talk> getTalksInNowPage(@PathVariable int nowPageInt){
         List<Talk> allList = this.getTalks();
         List<Talk> pageList = new ArrayList<>();

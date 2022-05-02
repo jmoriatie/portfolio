@@ -33,6 +33,7 @@ public class BoardController {
     // 영화검색 Controller
     private final MovieRestController mc;
 
+
     @GetMapping("/boardList/{nowPage}")
     public String boardList(@PathVariable String nowPage, HttpServletRequest request) {
         // 아무것도 없이 들어왔을 때, 1로 돌려줌            nowPage = "1";
