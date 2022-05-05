@@ -9,6 +9,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @Getter
 public class TalkRequestDTO {
+
     private int talk_no, talk_likes;
     private String user_id, talk_title, talk_content, talk_password, movie_name, movie_poster;
     private Timestamp talk_regdate;

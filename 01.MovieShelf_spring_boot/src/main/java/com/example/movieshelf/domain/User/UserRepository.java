@@ -9,4 +9,5 @@ public interface UserRepository extends JpaRepository<User,Integer> {
 
     @Query("Select u from User u where u.user_id like ?1")
     List<User> findAllByUser_id(String id);
+
 }
